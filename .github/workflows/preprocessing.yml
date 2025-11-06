@@ -25,7 +25,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_MochFaisalSyahwaludin.py --input preprocessing/../dataset/weather.csv --output preprocessing_output/weather_preprocessed.csv
+          python preprocessing/automate_Moch.FaisalSyahwaludin.py --input preprocessing/../dataset/weather.csv --output preprocessing_output/weather_preprocessed.csv
 
       - name: Show preview
         run: |
