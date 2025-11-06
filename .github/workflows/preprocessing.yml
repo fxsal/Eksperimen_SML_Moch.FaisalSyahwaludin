@@ -22,11 +22,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pandas numpy matplotlib seaborn scikit-learn
-
+      
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Moch.FaisalSyahwaludin.py --input preprocessing/../dataset/weather.csv --output preprocessing_output/weather_preprocessed.csv
-
+          python preprocessing/automate_Moch.FaisalSyahwaludin.py --input weatherHistory.csv --output preprocessing/weather_preprocessed.csv
+    
       - name: Show preview
         run: |
           echo "Preview of processed file:"
