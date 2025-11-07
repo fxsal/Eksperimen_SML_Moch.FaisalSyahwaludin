@@ -30,7 +30,7 @@ jobs:
       - name: Show preview
         run: |
           echo "Preview of processed file:"
-          head -n 5 preprocessing_output/weather_preprocessed.csv || true
+          head -n 5 preprocessing/weather_preprocessed.csv || true
 
       - name: Upload processed dataset as artifact
         uses: actions/upload-artifact@v4
