@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: weather_preprocessed
-          path: preprocessing_output/weather_preprocessed.csv
+          path: preprocessing/weather_preprocessed.csv
